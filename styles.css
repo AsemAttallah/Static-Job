@@ -43,6 +43,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   border: rgb(255, 255, 255);
+  outline: none;
 }
 
 /* Js Styles */
@@ -144,7 +145,12 @@ body {
   font-size: 40px;
   display: none;
 }
-
+/* 1199 */
+@media screen and (max-width: 1200px) {
+  .containerLandR-class {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 550px) {
   .searchBar-class {
     margin: 10px auto;
